@@ -1,0 +1,399 @@
+/*!
+Theme Name: WPCuchara
+Template Theme URI: http//www.srp.ucr.ac.cr/
+Author: Grupo TM7200 - III2019
+Author URI: http://www.srp.ucr.ac.cr/
+Descripcion: Tema del curso Desarrollo rapido de Aplicaciones.
+Version: 1.0
+License: GNU General Public License v2
+*/
+
+@import 'fonts';
+
+@include font-face('Lunatique', 'thelunatique', 'the-lunatique', 'serif');
+@include font-face('Homizio', 'homizio', 'homizio', 'serif');
+
+.logo
+{
+     width: 40%;
+     height: 40%;
+     position: relative;
+     
+}
+
+nav.navbar 
+{
+    font-family: "homizio";
+    font-style: bold;
+    background: #f2f2f24f;
+    font-size: 28;
+    width: 100%;
+    height: 19%;
+}
+
+nav.navbar li a
+{
+    color: black;
+}
+
+.ldivHome
+{
+    z-index: -1;
+    text-align: center;
+    position: relative;
+    margin-top:-12%;
+}
+
+
+.lcuadroBanner
+{
+    background-color: #00000052;
+    width: 60%;
+    height: 40%;
+    margin-top: -35%;
+    margin-left: 21%;
+    z-index: 1;
+    position: absolute;
+}
+
+
+p
+{
+    font-family: "homizio";
+    padding-top: 2%;
+}
+
+
+h1
+{
+    font-family: "LUNATIQUE";
+    font-size: 110px;
+}
+
+
+
+@media (min-width: 1200px) 
+{
+    .ldivHome .lcuadroBanner 
+    {
+       font-size: 76px;
+       color: #fff;
+    }
+}
+
+
+.limgMenu
+{
+    z-index: -1;
+    position: relative;
+}
+
+.ldivMenu
+{
+    background-color: #00000075;
+    z-index: 1;
+    width: 100%;
+    height: 79%;
+    position: absolute;
+    margin-top: -547px;
+}
+
+.llogomenu
+{
+    z-index: 1;
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 2%;
+}
+
+
+h2
+{
+    font-family: "LUNATIQUE";
+    font-size: 110px;
+    color: #fff;
+    margin-left: 13%;
+    margin-top: 4%;
+}
+
+.lUbicacionH2
+{
+
+margin-left: 11%;
+}
+
+
+
+.ltextMenu
+{
+    width: 46%;
+    height: 20%;
+    float: right;
+    margin-top: 5%;
+    margin-right: 9%;
+    font-family: "homizio";
+    font-size: 27px;
+    text-align: center;
+    color: white;
+}
+
+.ldivPromociones
+{
+    background-color: #ffffff30;
+    z-index: 1;
+    width: 100%;
+    height: 79%;
+    position: absolute;
+    margin-top: -547px;
+}
+
+.limgPromociones
+{
+    z-index: -1;
+    position: relative;
+    margin-left: 7%;
+}
+
+.ltextPromos
+{
+    width: 46%;
+    height: 20%;
+    float: right;
+    margin-top: 5%;
+    margin-right: 9%;
+    font-family: "homizio";
+    font-size: 30px;
+    color: black;
+    margin-top: -22%;
+}
+
+.lPromosh2
+{
+    margin-top: -26%;
+    margin-left: 11%;
+}
+
+.ldivUbicaciones
+{
+    float: right;
+    z-index: -1;
+    position: relative;
+    margin-top: -17%;
+    margin-right: 31;
+}
+.ltextUbic
+{
+    width: 39%;
+    height: 20%;
+    float: right;
+    margin-top: 5%;
+    margin-right: 9%;
+    font-family: "homizio";
+    font-size: 30px;
+    color: black;
+    margin-top: -21%;
+    text-align: center;
+}
+
+.lh2QuienesSomos
+
+{
+    margin-top: -49%;
+    margin-left: 7%;
+    text-decoration:none;
+
+}
+
+.ldivImgGerald
+{
+    float: left;
+    margin-left: 9%;
+    margin-top: 1%;
+    text-align: center;
+    font-size: 23px;
+    color: white;
+
+}
+.lnombrePersonal
+{
+    font-family: "homizio";
+    font-size: 38px;
+}
+
+.ldivAbout
+{
+    background-color: #ffffff63;
+    width: 600px;
+    height: 303px;
+    float: right;
+    margin-right: 8%;
+    margin-top: 1%;
+}
+.lhistory
+{
+    font-family: "homizio";
+    font-size: 38px;
+    color: #a70016d2;
+    margin-left: 32%;
+}
+
+.ltextAbout
+{
+    width: 90%;
+    height: 20%;
+    font-family: "homizio";
+    font-size: 24px;
+    color: white;
+    margin-top: 2%;
+    margin-left: 6%;
+    
+}
+.lcolorFooter
+{
+        background-color: #f2f2f24f;    
+        width: 100%;
+        height: 100%;
+
+}
+
+.lfooter
+{
+    background-color: #f2f2f24f;
+    width: 100%;
+    height: 22%;
+    margin-top: 37%;
+}
+
+.lrepatiendoSabor 
+{
+    color: #a70016d2;
+    margin-top: -5%;
+    width: 100%;
+    height: 100px;
+}
+
+.ltextFooter
+{
+    font-family:"LUNATIQUE";
+    font-size: 48px;
+    float: left;
+
+}
+
+.ldivRedes
+{
+    margin-top: 3%;
+
+}
+.linsta
+{
+
+width: 5%;
+height: 22%;
+padding: 1%;
+float: right;
+margin-top: -8%;
+margin-right: 23%;
+}
+
+.lfb
+{
+    
+    width: 5%;
+    height: 10%;
+    padding: 1%;
+    float: right;
+    margin-right: 15%;
+    margin-top: -8%;
+}
+
+.ltw
+{
+    
+    width: 10%;
+    height: 10%;
+    padding: 1%;
+    float: right;
+    margin-top: -8%;
+    margin-right: 2%;
+}
+
+
+.kcontenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Lunatique';
+}
+ 
+.ktexto-encima{
+    position: absolute;
+    top: 50px;
+    left: 40%;
+    font-size: 80px;
+    color: #b30202;
+    font-family: 'Lunatique';
+}
+.kcentrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+    color: white;
+    font-family: 'Lunatique';
+}
+
+.ktexto-centro
+{
+	top: 50px;
+    left: 10%;
+    font-size: 100px;
+    color: #b30202;
+    text-align: center;
+    font-family: 'Lunatique';
+}
+
+.kcontactup{
+    z-index: 1;
+    position: absolute;
+    height: 944px;
+    width: 556px;
+    margin-top: -38%;
+    margin-left: 25%;
+}
+
+form {
+    /* Sólo para centrar el formulario a la página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver el borde del formulario */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    font-family: 'Homizio';
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    font-family: 'Homizio';
+}
+
+input:focus, textarea:focus {
+    /* Para dar un pequeño destaque en elementos activos*/
+    border-color: red;
+    font-family: 'Homizio';
+}
+
+.button {
+    /* Para posicionar los botones a la misma posición que los campos de texto */
+    padding-left: 40%; /* mismo tamaño a todos los elementos label */
+}
+
