@@ -2,7 +2,7 @@
 
 
 
-<div class="container-fluid">
+<div class="container-fluid mx-0">
 	<div class="row">
 		
 		<div class="col-md-12" >
@@ -11,10 +11,6 @@
            	<img src="<?php bloginfo('template_directory'); ?>/assets/images/food.png" class="img-fluid max-width" alt="100%x250"/>
 			
             <div class="kcentrado text-center">Deseas contactarnos?</div>
-
-            <div>
-              <a href="http://localhost/wordpress/?p=125">link papu daaaaaaaa</a>
-            </div>
 
            </div>
 			
@@ -25,7 +21,7 @@
 
 
 
-<div class="container-fluid">
+<div class="container-fluid mx-0">
 	<div class="row">
 		<div class="col-md-12">
 			
@@ -41,7 +37,7 @@
 </div>
 
 
-<div class="container-fluid">
+<div class="container-fluid mx-0">
 	<div class="row">
 		<div class="col-md-12">
 			<div class="ktexto-centro">Formulario</div>

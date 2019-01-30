@@ -1,3 +1,7 @@
+
+<div class="background">
+	
+
 <?php get_header();?>
 
 <div class="container-fluid" id="colorfondo">
@@ -10,10 +14,14 @@
 			<div id="textoerror">No hemos encontrado</div>
 			<div id="textoerror">la pagina que buscas.</div>
 
-			<button id="botonerror" type="button" class="btn btn-danger">Regresar</button>
+			
+			<a class="btn btn-danger" id="botonerror" href="http://test-lacucharadegerald.pantheonsite.io/" role="button">Regresar</a>
 		</div>
+
+
+
 		<div class="col-4">
-			<img src=""><img src="<?php bloginfo('template_directory'); ?>/assets/images/img404.png" class="img-fluid max-width" alt="100%x250"/>
+			<img src="<?php bloginfo('template_directory'); ?>/assets/images/img404.png" class="img-fluid max-width" alt="100%x250"/>
 	    </div>
 	    <div class="col-2">
 	    	
@@ -21,3 +29,4 @@
 </div>
 
 <?php get_footer();?>
+</div>

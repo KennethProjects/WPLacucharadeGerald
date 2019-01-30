@@ -125,7 +125,7 @@ get_header();
 			<div>
 				<img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/images/inicio5.png"">
 
-			<div class="col-md-4">
+			<div class="col-md-4 ubicacion">
 				<div class="locationH2">
 					<h3>
 						Quienes Somos
