@@ -9,18 +9,19 @@
     
 </head>
 <body <?php body_class();?>>
-     <nav class="navbar navbar-expand-lg py-lg-4" >
+     <nav class="navbar navbar-expand-lg py-lg-4 navbar-light" role="navigation" >
       <div class="container">
         <div class="site-heading text-center d-none d-lg-block ">
-      <span class="site-heading-upper text-primary mb-3">
-          <a class="mx-auto" href="#">
-            <img class="img-fluid logo" src=" <?php bloginfo('template_directory'); ?> /assets/images/logo.png">
-        </a>
+             <span class="site-heading-upper text-primary mb-3">
+              <a class="mx-auto" href="#">
+                <img class="img-fluid logo" src=" <?php bloginfo('template_directory'); ?>/assets/images/logo.png">
+              </a>
      
-    </div>
-        <a class="navbar-brand text-uppercase d-lg-none" href="#">
-            <img class="img-fluid logo" src=" <?php bloginfo('template_directory'); ?> /assets/images/logo.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+        </div>
+           <a class="navbar-brand text-uppercase d-lg-none" href="#">
+                <img class="img-fluid logo" src=" <?php bloginfo('template_directory'); ?>/assets/images/logo.png">
+           </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
         <?php
@@ -40,15 +41,3 @@
 
 
 </nav>
-<div class="ldivHome">
-    <img class="img-fluid" src=" <?php bloginfo('template_directory'); ?> /assets/images/inicio1.png"/>
-    <div class="lcuadroBanner">
-        <p>
-            Bienvenidos a 
-        </p>
-        <h1>
-            La Cuchara De Gerald 
-        </h1>
-
-    </div>
-</div>

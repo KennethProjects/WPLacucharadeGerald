@@ -1,14 +1,20 @@
 <?php get_header();?>
 
-<div class="container">
+
+
+<div class="container-fluid">
 	<div class="row">
 		
 		<div class="col-md-12" >
            <div class="kcontenedor">
            	
-           	<img src="<?php bloginfo('template_directory'); ?>/assets/images/food.png" class="img-fluid"/>
+           	<img src="<?php bloginfo('template_directory'); ?>/assets/images/food.png" class="img-fluid max-width" alt="100%x250"/>
 			
-            <div class="kcentrado">Deseas contactarnos?</div>
+            <div class="kcentrado text-center">Deseas contactarnos?</div>
+
+            <div>
+              <a href="http://localhost/wordpress/?p=125">link papu daaaaaaaa</a>
+            </div>
 
            </div>
 			
@@ -19,14 +25,15 @@
 
 
 
-<div class="container">
+<div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
 			
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/header.png" class="img-fluid"/>
             <div class="ktexto-encima">Contactenos</div>
+
             <div class="kcontactup">
-            	<img src="<?php bloginfo('template_directory'); ?>/assets/images/contact.png" class="img-fluid"/>
+            	<img src="<?php bloginfo('template_directory'); ?>/assets/images/contact.png" class="img-fluid" alt="100%x250"/>
             </div>
 
 		</div>
@@ -34,7 +41,7 @@
 </div>
 
 
-<div class="container">
+<div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
 			<div class="ktexto-centro">Formulario</div>
