@@ -2,6 +2,8 @@
 get_header();
 ?>
 
+<meta name="viewport" content="width=device-width, initial- scale=1,shrink-to-fit=no">
+
 <section class="header">
 <div class="ldivHome">
     <img class="img-fluid" src=" <?php bloginfo('template_directory'); ?>/assets/images/inicio1.png"/>
@@ -21,12 +23,10 @@ get_header();
 
 
 <section><!-- Primera seccion corresponde a la seccion del menu -->
-	<div class="container-fluid mx-0">
+	<div class="container-fluid mx-0 contenedor">
+		<img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/images/seccionMenu.png"">
 		<div class="row">
-			<div>
-				<img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/images/seccionMenu.png"">
-
-					<div class="col-md-4">
+					<div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
 						<div class="ubicacionH2">
 							<h2>
 								Menú
@@ -37,28 +37,25 @@ get_header();
 						</div>
 					</div> <!-- final del div de 4 columnas-->
 
-					<div class="col-md-6 textos">
+					<div class="col-xs-12 col-sm-7 col-md-6 col-lg-6  textos">
 						<p>
 							La variedad es nuestro fuerte, es por esta razón que contamos
 				 			con un amplio menú para todos los gustos. <br>
 							Dale un vistazo y te sorprederas!!
 						</p>
 					</div> <!-- fin del div 6 columnas-->
-				
-			</div><!-- div img brackground -->
 			
 		</div><!-- div row -->
 		
 	</div><!-- div container -->
 </section>
+
 <!-- inicio de la seccion promociones-->
 <section>
-	<div class="container-fluid mx-0">
+	<div class="container-fluid mx-0 contenedor">
+		<img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/images/seccionPromociones.png"">
 		<div class="row">
-			<div>
-				<img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/images/seccionPromociones.png"">
-
-			<div class="col-md-4">
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
 				<div class="ubicacionH2">
 				<h2>
 					Promociones
@@ -69,13 +66,12 @@ get_header();
 				</div><!-- final del div img-->			
 			</div> <!-- final del div de 4 columnas-->
 
-			<div class="col-md-6 textos">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 textos">
 			<p> El platillo del dia a un precio irresistible para todos 
 				nuestros comensales, a la calidad que te acostumbra <br>
 				Gerald
 			</p>
 			</div>
-		</div><!-- final del div del background img-->
 			
 		</div><!-- final del row-->
 		
@@ -83,12 +79,10 @@ get_header();
 </section>
 
 <section>
-	<div class="container-fluid">
-		<div class="row">
-			<div>
-				<img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/images/inicio4.png"">
-
-				<div  class="col-md-4">
+	<div class="container-fluid mx-0 contenedor">
+		<img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/images/inicio4.png"">
+		<div class="row">			
+				<div  class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
 					<div>
 						<h2 class="ubicacionH2">
 							Ubicanos
@@ -100,7 +94,7 @@ get_header();
 					</div><!-- fin del div de img-->
 				</div>
 
-				<div class="col-md-6 imgUbicacion">
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 imgUbicacion">
 					<img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/images/inicio4.1.png"">
 					<div class="cajaTexto">
 						<h5>
@@ -111,8 +105,6 @@ get_header();
 						</h5>
 					</div><!-- div del h5-->
 					</div>
-				
-			</div><!-- fin del div del background-->
 			
 		</div> <!-- fin del  row-->
 		
@@ -120,12 +112,10 @@ get_header();
 </section>
 
 <section>
-	<div class="container-fluid">
+	<div class="container-fluid mx-0 contenedor">
+		<img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/images/inicio5.png"">
 		<div class="row">
-			<div>
-				<img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/images/inicio5.png"">
-
-			<div class="col-md-4 ubicacion">
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" >
 				<div class="locationH2">
 					<h3>
 						Quienes Somos
@@ -142,7 +132,7 @@ get_header();
 					</p>
 				</div>
 			</div><!-- fin del div 4 columnas-->
-			<div class="col-md-6  imgUbicacionUS">
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6  imgUbicacionUS">
 				<img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/images/00.png"">
 				<div class="cajaTexto">
 						<h4>
@@ -155,9 +145,7 @@ get_header();
 						</h5>
 					</div><!-- div del h5-->
 
-			</div>
-		</div><!-- div del img background-->
-			
+			</div>			
 		</div>
 		
 	</div>

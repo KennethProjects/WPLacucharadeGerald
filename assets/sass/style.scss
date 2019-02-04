@@ -12,6 +12,8 @@ License: GNU General Public License v2
 @import 'inicio';
 @import 'contactenos';
 @import '404';
+@import 'promociones';
+@import 'media-queries';
 
 @include font-face('Lunatique', 'thelunatique', 'the-lunatique', 'serif');
 @include font-face('Homizio', 'homizio', 'homizio', 'serif');
@@ -80,6 +82,7 @@ h1
 {
     font-family: "LUNATIQUE";
     font-size: 110px;
+
 }
 
 
@@ -91,6 +94,18 @@ h1
        font-size: 76px;
        color: #fff;
     }
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+{
+     h1
+        {
+            font-family: "LUNATIQUE";
+            font-size:30px;
+        }
+    
 }
 
 

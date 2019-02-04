@@ -1,6 +1,6 @@
 <?php get_header();?>
 
-
+<meta name="viewport" content="width=device-width, initial- scale=1,shrink-to-fit=no">
 
 <div class="container-fluid mx-0">
 	<div class="row">
@@ -37,7 +37,7 @@
 </div>
 
 
-<div class="container-fluid mx-0">
+<div class="container-fluid mx-0" id="margen">
 	<div class="row">
 		<div class="col-md-12">
 			<div class="ktexto-centro">Formulario</div>

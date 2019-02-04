@@ -1,0 +1,132 @@
+@import 'media-queries';
+
+.kcentradopromo{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200px;
+    color: #a70016ff;
+    font-family: 'Lunatique';
+
+}
+
+.encima{
+    z-index: 1;
+    position: absolute;
+    height: auto;
+    width: auto;
+    margin-top: -110%;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-content: center;
+
+}
+
+.especial{
+	position: absolute;
+    top: 50px;
+    left: 0%;
+    font-size: 80px;
+    color: #b30202;
+    font-family: 'Homizio';
+}
+
+.caja{
+	width: 100px;
+	height: 100px;
+}
+
+#cajacomida{
+	background: #a70016d2;
+    height: auto;
+    width: auto;
+    margin-bottom: 12%;
+    padding: 20px;
+}
+
+#titulo{
+	color: white;
+	font-size: 40px;
+}
+
+#textocomida{
+	font-size: 20px;
+	color: white;
+    width: auto;
+    height: auto;
+}
+
+#preciocomida{
+	font-size: 25px;
+	color: white;
+    width: auto;
+    height: auto;
+}
+
+#imagencomida{
+	height: auto;
+    width: auto;
+    margin-bottom: 4%;
+
+
+}
+
+#botonexpress{
+	font-size: 30px;
+	width: 30px;
+	height: 40px;
+	background: none;
+	font-family: 'Homizio';
+}
+
+#margen{
+	margin: 0 auto;
+}
+
+@include respond-to($phone) 
+{ 
+	.kcentradopromo{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: #a70016ff;
+    font-family: 'Lunatique';
+
+                    }
+
+    #titulo{
+	color: white;
+	font-size: 10px;
+           }
+
+    #textocomida{
+	font-size: 10px;
+	color: white;
+    width: auto;
+    height: auto;
+                }
+
+#preciocomida{
+	font-size: 12px;
+	color: white;
+    width: auto;
+    height: auto;
+             }
+}
+
+@include respond-to($tablet-landscape) 
+{ 
+	.kcentradopromo{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: #a70016ff;
+    font-family: 'Lunatique';
+
+                    }
+}

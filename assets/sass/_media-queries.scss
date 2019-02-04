@@ -1,0 +1,212 @@
+$phone : '(max-width: 480px)';
+$tablet-portrait: '(max-width: 767px)';
+$tablet-landscape: '(min-width: 768px) and (max-width: 979px)';
+$large-desktop: '(min-width: 1200px)';
+$non-retina: 'screen and (-webkit-max-device-pixel-ratio: 1)';
+$retina: '(min--moz-device-pixel-ratio: 1.5), 
+                    (-o-min-device-pixel-ratio: 3/2), 
+                    (-webkit-min-device-pixel-ratio: 1.5), 
+                    (min-device-pixel-ratio: 1.5), 
+                    (min-resolution: 144dpi), 
+                    (min-resolution: 1.5dppx)';
+
+@mixin respond-to($media) {
+    @media only screen and #{$media} {
+        @content;
+    }
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+{
+
+    .ldivHome
+{
+    z-index: -1;
+    text-align: center;
+    position: relative;
+    margin-top:-12%;
+}
+
+
+.lcuadroBanner
+{
+    background-color: #00000052;
+    width: 60%;
+    height: 40%;
+    margin-top: -35%;
+    margin-left: 21%;
+    z-index: 1;
+    position: absolute;
+}
+
+
+p
+{
+    font-family: "homizio";
+    padding-top: 2%;
+}
+
+
+h1
+{
+    font-family: "LUNATIQUE";
+    font-size: 110px;
+}
+
+        .header
+    {
+        width: 100%;
+        height: auto;
+
+    }
+    .contenedor
+    {
+        margin-left:0%;
+    }
+
+    section
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    h2 { 
+        font-family: "LUNATIQUE";
+        font-size: 110px;
+        color: #fff;
+        margin-left: 15%;  
+     }
+
+     p
+    {
+        color: white;
+        font-family: "homizio";
+        font-size: 32px;
+        z-index: -1;
+    }
+
+    h3
+    {
+        font-family: "LUNATIQUE";
+        font-size: 96px;
+        color: #fff;
+        margin-left: 15%; 
+    }
+
+    .locationH2
+    {
+        width: 370px;
+        height: 132px;
+        text-align: center;
+        margin-top: -144%;
+       
+    }
+    .ubicacionH2
+    {
+        width: 370px;
+        height: 132px;
+        text-align: center;
+        margin-top: -121%;
+       
+    }
+
+    .imgUS
+    {
+        z-index: -1;
+        margin-left: 39%;
+    }
+
+     .logoMenu
+     {
+        z-index: -1;
+        margin-left: 5%;
+        width: 136px;
+     }
+
+     .textos
+     {
+        float: right;
+        margin-top: -24%;
+     }
+
+     h5
+     {
+        float: right;
+        margin-top: -41%;
+        color: black;
+        font-size: 25px;
+        
+        z-index: +1;
+        position: relative;
+     }
+
+     h4
+     {
+        font-size: 30px;
+        color: red;
+        text-align: center;
+        z-index: +1;
+        position: relative;
+        margin-top: -47%;
+
+     }
+
+
+     .imgUbicacion
+     {
+        width: 711px;
+        height: 120px;
+        float: right;
+        margin-top: -31%;
+        margin-right: 5%;
+     }
+     .imgUbicacionuS
+     {
+        width: 711px;
+        height: 120px;
+        float: right;
+        margin-top: -31%;
+     }
+    .cajaTexto
+    {
+        width: 450px;
+        height: 100px;
+        float: right;
+        margin-right: 14%; 
+        margin-top: -9%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
