@@ -4,40 +4,35 @@ get_header();
 
 <meta name="viewport" content="width=device-width, initial- scale=1,shrink-to-fit=no">
 
-<section class="header">
-<div class="ldivHome">
-    <img class="img-fluid" src=" <?php bloginfo('template_directory'); ?>/assets/images/inicio1.png"/>
-    <div class="lcuadroBanner">
-        <p>
-            Bienvenidos a 
-        </p>
-        <h1>
-            La Cuchara De Gerald 
-        </h1>
-
-    </div>
-</div>
-
-	
+<section id="seccionBienvenida" class="parallax" >
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 text-center" id="location">
+		        <p>
+		            Bienvenidos a 
+		        </p>
+		        <h1>
+		            La Cuchara De Gerald 
+		        </h1>
+	        </div>
+	    </div>    
+	 </div> <!-- fin del container-->
 </section>
 
 
-<section><!-- Primera seccion corresponde a la seccion del menu -->
-	<div class="container-fluid mx-0 contenedor">
-		<img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/images/seccionMenu.png"">
+<section class="parallax" id="seccionMenu"><!-- corresponde a la seccion del menu -->
+	<div class="container-fluid">
 		<div class="row">
-					<div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
-						<div class="ubicacionH2">
+					<div class="col-lg-6 col-md-6 col-sm-12 text-center boxUbic">
 							<h2>
 								Menú
 							</h2>
-						</div> <!-- fin del div h2 -->
-						<div>
-							<img class="img-fluid logoMenu" src="<?php bloginfo('template_directory'); ?>/assets/images/inicio2.1.png"">
-						</div>
+							<div id="imgSize">
+							<img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/images/inicio2.1.png"">
+							</div>
 					</div> <!-- final del div de 4 columnas-->
 
-					<div class="col-xs-12 col-sm-7 col-md-6 col-lg-6  textos">
+					<div class="col-lg-6 col-md-6 col-sm-12 textos">
 						<p>
 							La variedad es nuestro fuerte, es por esta razón que contamos
 				 			con un amplio menú para todos los gustos. <br>
@@ -46,57 +41,49 @@ get_header();
 					</div> <!-- fin del div 6 columnas-->
 			
 		</div><!-- div row -->
-		
 	</div><!-- div container -->
 </section>
 
-<!-- inicio de la seccion promociones-->
-<section>
-	<div class="container-fluid mx-0 contenedor">
-		<img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/images/seccionPromociones.png"">
+<section class="parallax" id="seccionPromos">
+	<div class="container-fluid">
 		<div class="row">
-			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-				<div class="ubicacionH2">
+			<div class="col-lg-6 col-md-6 col-sm-12 text-center boxUbic" >
 				<h2>
 					Promociones
 				</h2>
+				<div id="imgSize">
+					<img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/images/promo.jpg"">
 				</div>
-				<div>
-					<img class="img-fluid logoMenu" src="<?php bloginfo('template_directory'); ?>/assets/images/inicio3.1.png"">
-				</div><!-- final del div img-->			
-			</div> <!-- final del div de 4 columnas-->
+			</div> <!-- final del div de 6 columnas-->
 
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 textos">
+			<div class="col-lg-6 col-md-6 col-sm-12  textos">
 			<p> El platillo del dia a un precio irresistible para todos 
 				nuestros comensales, a la calidad que te acostumbra <br>
 				Gerald
 			</p>
 			</div>
 			
-		</div><!-- final del row-->
+		</div>
 		
-	</div> <!-- final del container-->
+	</div>
 </section>
 
-<section>
-	<div class="container-fluid mx-0 contenedor">
-		<img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/images/inicio4.png"">
-		<div class="row">			
-				<div  class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<div>
-						<h2 class="ubicacionH2">
-							Ubicanos
-						</h2>
-					</div>
-					<div>
-						<img class="img-fluid logoMenu" src="<?php bloginfo('template_directory'); ?>/assets/images/location.png"">
-						
-					</div><!-- fin del div de img-->
-				</div>
 
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 imgUbicacion">
-					<img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/images/inicio4.1.png"">
-					<div class="cajaTexto">
+<!-- ****************** SECCION UBICANOS ****************** -->
+<section class="parallax" id="seccionUbicanos">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-12 text-center boxUbic">
+				<h2>
+					Ubicanos
+				</h2>
+				<div class="imgSiz">
+					<img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/images/ubic2.png""> 
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12">
+				<div class="UbicanosDiv"> 
+					<div class="TextUbic">
 						<h5>
 							La 	Cuchara de Gerald cuenta con 2
 							restaurantes ubicados en Esparza y en Puntarenas
@@ -104,52 +91,52 @@ get_header();
 							o con amigos...
 						</h5>
 					</div><!-- div del h5-->
-					</div>
-			
-		</div> <!-- fin del  row-->
-		
-	</div> <!-- fin del container -->
+				</div>
+			</div>
+		</div><!-- fin del row-->	
+	</div> <!-- fin del container-->
 </section>
 
-<section>
-	<div class="container-fluid mx-0 contenedor">
-		<img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/images/inicio5.png"">
+<!-- ****************** SECCION NOSOTROS ****************** -->
+<section class="parallax" id="seccionNosotros">
+	<div class="container-fluid">
 		<div class="row">
-			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" >
-				<div class="locationH2">
-					<h3>
-						Quienes Somos
-					</h3>
+			<div class="col-lg-6 col-md-6 col-sm-12 text-center boxUbic">
+				<h2>
+					Nosotros
+				</h2>
+				<div class="size" id="imgSize">
+					<img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/images/chef.jpg">
 				</div>
-				<div>
-					<img class="img-fluid logoMenu" src="<?php bloginfo('template_directory'); ?>/assets/images/gerald.png"">
-				</div>
-				<div class="imgUS">
+				
 					<p>
 						GERALD
 						<br>
-						Gerente
+						Chef
 					</p>
-				</div>
-			</div><!-- fin del div 4 columnas-->
-			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6  imgUbicacionUS">
-				<img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/images/00.png"">
-				<div class="cajaTexto">
-						<h4>
-							DESDE 2016
-						</h4>
-							<h5>
-							<br>
-							<br>
-							"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
-						</h5>
-					</div><!-- div del h5-->
+			
+			</div>
 
-			</div>			
+			<div class="col-lg-6 col-md-6 col-sm-12" >
+				<div class="history">
+					<h4>
+						Desde 2015
+					</h4>
+					<h5>
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
+						<br>
+						<br>
+
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
+
+					</h5>
+				</div>
+				<!-- aca va el texto del nosotros-->
+			</div>
+			
 		</div>
 		
 	</div>
-	
 </section>
 
 <?php get_footer();

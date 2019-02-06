@@ -30,6 +30,7 @@
     font-size: 80px;
     color: #b30202;
     font-family: 'Homizio';
+
 }
 
 .caja{
@@ -68,8 +69,6 @@
 	height: auto;
     width: auto;
     margin-bottom: 4%;
-
-
 }
 
 #botonexpress{
@@ -83,7 +82,7 @@
 #margen{
 	margin: 0 auto;
 }
-
+.contenedor-principal
 @include respond-to($phone) 
 { 
 	.kcentradopromo{
@@ -95,26 +94,46 @@
     color: #a70016ff;
     font-family: 'Lunatique';
 
-                    }
+    }
+           
+    .contenedor-principal{
+    	display: flex;
+    	align-content: flex-end;
+    	.footer-box{
 
+    	}
+    }
     #titulo{
 	color: white;
-	font-size: 10px;
+	font-size: 20px;
            }
 
     #textocomida{
-	font-size: 10px;
+	font-size: 15px;
 	color: white;
     width: auto;
     height: auto;
                 }
 
-#preciocomida{
-	font-size: 12px;
+    #preciocomida{
+	font-size: 14px;
 	color: white;
     width: auto;
     height: auto;
-             }
+                 }
+
+    #imagencomida{
+	height: auto;
+    width: auto;
+    margin-bottom: 1%;
+    
+                 }
+    #cajatextocomida{
+    padding-bottom: -5%;
+    margin-bottom: -10%;
+    }
+
+
 }
 
 @include respond-to($tablet-landscape) 
@@ -129,4 +148,64 @@
     font-family: 'Lunatique';
 
                     }
+    #titulo{
+	color: white;
+	font-size: 15px;
+           }
+
+    #textocomida{
+	font-size: 10px;
+	color: white;
+    width: auto;
+    height: auto;
+                }
+
+    #preciocomida{
+	font-size: 12px;
+	color: white;
+    width: auto;
+    height: auto;
+                 }
+
+    #imagencomida{
+	height: auto;
+    width: auto;
+    margin-bottom: -5%;
+    
+                 }
+
+    #botonexpress{
+	font-size: 15px;
+	width: 15px;
+	height: 20px;
+	background: none;
+	font-family: 'Homizio';
+                  }
+
+    #cajatextocomida{
+    padding-bottom: -5%;
+    margin-bottom: -10%;
+    }
+}
+
+@include respond-to($tablet-portrait)
+{
+    #titulo{
+	color: white;
+	font-size: 10px;
+           }
+
+    #textocomida{
+	font-size: 10px;
+	color: white;
+    width: auto;
+    height: auto;
+                }
+
+    #preciocomida{
+	font-size: 12px;
+	color: white;
+    width: auto;
+    height: auto;
+                 }
 }
