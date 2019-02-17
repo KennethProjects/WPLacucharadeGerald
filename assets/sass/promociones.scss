@@ -82,7 +82,7 @@
 #margen{
 	margin: 0 auto;
 }
-.contenedor-principal
+
 @include respond-to($phone) 
 { 
 	.kcentradopromo{

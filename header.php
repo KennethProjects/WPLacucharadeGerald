@@ -9,35 +9,26 @@
     
 </head>
 <body <?php body_class();?>>
-     <nav class="navbar navbar-expand-lg py-lg-4 navbar-light" role="navigation" >
-      <div class="container">
-        <div class="site-heading text-center d-none d-lg-block ">
-             <span class="site-heading-upper text-primary mb-3">
-              <a class="mx-auto" href="#">
-                <img class="img-fluid logo" src=" <?php bloginfo('template_directory'); ?>/assets/images/logo.png">
-              </a>
-     
-        </div>
-           <a class="navbar-brand text-uppercase d-lg-none" href="#">
-                <img class="img-fluid logo" src=" <?php bloginfo('template_directory'); ?>/assets/images/logo.png">
-           </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-        <?php
-            wp_nav_menu( array(
+    <nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
+  <div class="container">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="mx-auto text-center" href="#">
+    <img class="img-fluid logo" src=" <?php bloginfo('template_directory'); ?>/assets/images/logo.png">
+  </a>
+    <?php
+     wp_nav_menu( array(
                 'theme_location'    => 'primary',
                 'depth'             => 2,
-                'container'         => 'div',
-                'container_class'   => 'collapse navbar-collapse',
+                'container-fluid'   => 'div',
+                'container_class'   => 'collapse navbar-collapse bg-white',
                 'container_id'      => 'bs-example-navbar-collapse-1',
                 'menu_class'        => 'nav navbar-nav',
                 'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
                 'walker'            => new WP_Bootstrap_Navwalker()
             ) );
-            ?>
-    </div>
-    
-
-
+    ?>
+  </div>
 </nav>

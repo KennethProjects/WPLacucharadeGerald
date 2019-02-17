@@ -13,12 +13,132 @@ License: GNU General Public License v2
 @import 'contactenos';
 @import '404';
 @import 'promociones';
+@import 'nosotros';
 @import 'media-queries';
+@import 'menu';
 
 @include font-face('Lunatique', 'thelunatique', 'the-lunatique', 'serif');
 @include font-face('Homizio', 'homizio', 'homizio', 'serif');
 
 .logo
+{
+     width: 40%;
+     height: 40%;
+     position: relative;
+     
+}
+
+div.row{
+   margin-right: 0px;
+   
+}
+
+div.container-fluid{
+   padding-right: 0px;
+}
+
+nav.navbar 
+{
+    z-index: 1200;
+    font-family: "homizio";
+    font-style: bold;
+    background: #fff!important;
+    font-size: 28;
+    width: 100%;
+    height: 19%;
+}
+
+nav li{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+nav.navbar li a
+{
+    color: black;
+}
+
+p
+{
+    font-family: "homizio";
+    padding-top: 2%;
+}
+
+
+h1
+{
+    font-family: "LUNATIQUE";
+    font-size: 110px;
+
+}
+
+
+
+
+footer
+{
+    background-color: #f2f2f24f ;
+    width: 100%;
+    height: 22%;
+    margin-top: 6%;
+    z-index: +1;
+    position: relative;
+}
+
+.ubicacionRedes
+{
+    display: inherit;
+    margin-left: 2%;
+}
+
+h6
+{
+    color: #a70016d2;
+    font-size: 50px;
+    float: left;
+    margin-left: 2%;
+    font-family:"LUNATIQUE";
+
+}
+.list-inline-item
+{
+    display: inline;
+}
+
+.linsta
+{
+
+width: 100%;
+height:100%;
+float: right;
+margin-top: -8%;
+margin-right: 23%;
+}
+
+.lfb
+{
+    
+    width: 5%;
+    height: 10%;
+    padding: 1%;
+    float: right;
+    margin-right: 15%;
+    margin-top: -8%;
+}
+
+.ltw
+{
+    
+    width: 10%;
+    height: 10%;
+    padding: 1%;
+    float: right;
+    margin-top: -8%;
+    margin-right: 2%;
+}
+
+
+/*.logo
 {
      width: 40%;
      height: 40%;
@@ -83,7 +203,7 @@ h1
     font-family: "LUNATIQUE";
     font-size: 110px;
 
-}
+}*/
 
 
 

@@ -1,0 +1,256 @@
+@import 'media-queries';
+
+.centradoquienes{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150px;
+    color: #a70016ff;
+    font-family: 'Lunatique';
+}
+
+.centradoconoce{
+	position: absolute;
+	top: 62%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 50px;
+	color: white;
+	font-family: 'Homizio';
+}
+
+.centradodesde{
+	position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    font-family: 'Homizio';
+}
+
+.contenedorresena{
+	position: absolute;
+    top: 35%;
+    left: 0%;
+}
+
+#cajatextoresena{
+	background: #f2f2f24f;
+    height: auto;
+    width: auto;
+    
+    padding: 25px;
+    font-family: 'Homizio';
+    color: white;
+    
+}
+
+#textoresena{
+	font-size: 25px!important;
+	color: white!important;
+    width: auto;
+    height: auto;
+}
+
+#cajafotos{
+	background: #a70016d2;
+    height: auto;
+    width: auto;
+    margin-top: 10%;
+    padding: 50px;
+    font-family: 'Homizio';
+    color: white;
+    text-align: center;
+}
+
+#imagenchefa{
+	height: auto;
+    width: auto;
+    margin-bottom: 2%;
+}
+
+#titulochef{
+	color: white;
+	font-size: 30px;
+}
+
+#puestochef{
+	font-size: 25px;
+	color: white;
+    width: auto;
+    height: auto;
+}
+
+@include respond-to($phone)
+{
+		.centradodesde{
+			position: absolute;
+		    top: 25%;
+		    left: 50%;
+		    transform: translate(-50%, -50%);
+		    font-size: 25px;
+		    color: white;
+		    font-family: 'Homizio';
+		}
+
+		.centradoquienes{
+		    position: absolute;
+		    top: 30%;
+		    left: 50%;
+		    transform: translate(-50%, -50%);
+		    font-size: 200px;
+		    color: #a70016ff;
+		    font-family: 'Lunatique';
+		}
+
+		.centradoconoce{
+			position: absolute;
+			top: 62%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			font-size: 45px;
+			color: white;
+			font-family: 'Homizio';
+		}
+
+		#textoresena{
+			font-size: 15px!important;
+			color: white!important;
+		    width: auto;
+		    height: auto;
+		}
+
+		#titulochef{
+			color: white;
+			font-size: 15px;
+		}
+}
+@include respond-to($tablet-landscape){
+		 .centradoquienes{
+		    position: absolute;
+		    top: 30%;
+		    left: 50%;
+		    transform: translate(-50%, -50%);
+		    font-size: 100px;
+		    color: #a70016ff;
+		    font-family: 'Lunatique';
+		}
+
+		.centradoconoce{
+			position: absolute;
+			top: 62%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			font-size: 40px;
+			color: white;
+			font-family: 'Homizio';
+		}
+
+	    .centradodesde{
+		position: absolute;
+	    top: 20%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	    font-size: 45px;
+	    color: white;
+	    font-family: 'Homizio';
+	    }
+
+		#textoresena{
+			font-size: 17px!important;
+			color: white!important;
+		    width: auto;
+		    height: auto;
+		}
+
+	    		#titulochef{
+			color: white;
+			font-size: 25px;
+		}
+
+		#puestochef{
+	font-size: 15px;
+	color: white;
+    width: auto;
+    height: auto;
+}
+	}
+@include respond-to($tablet-portrait){
+		 .centradoquienes{
+		    position: absolute;
+		    top: 30%;
+		    left: 50%;
+		    transform: translate(-50%, -50%);
+		    font-size: 50px;
+		    color: #a70016ff;
+		    font-family: 'Lunatique';
+		}
+
+		.centradoconoce{
+			position: absolute;
+			top: 62%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			font-size: 20px;
+			color: white;
+			font-family: 'Homizio';
+		}
+
+	    .centradodesde{
+		position: absolute;
+	    top: 20%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	    font-size: 20px;
+	    color: white;
+	    font-family: 'Homizio';
+	    }
+
+		#textoresena{
+			font-size: 10px!important;
+			color: white!important;
+		    width: auto;
+		    height: auto;
+		}
+}
+
+@include respond-to($large-desktop){
+			 .centradoquienes{
+		    position: absolute;
+		    top: 30%;
+		    left: 50%;
+		    transform: translate(-50%, -50%);
+		    font-size: 200px;
+		    color: #a70016ff;
+		    font-family: 'Lunatique';
+		}
+
+		.centradoconoce{
+			position: absolute;
+			top: 62%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			font-size: 75px;
+			color: white;
+			font-family: 'Homizio';
+		}
+
+	    .centradodesde{
+		position: absolute;
+	    top: 20%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	    font-size: 100px;
+	    color: white;
+	    font-family: 'Homizio';
+	    }
+
+    #textoresena{
+	font-size: 35px!important;
+	color: white!important;
+    width: auto;
+     height: auto;
+      }
+}

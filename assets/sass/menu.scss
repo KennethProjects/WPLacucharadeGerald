@@ -1,0 +1,75 @@
+@import 'media-queries';
+/* una clase para ver las divisiones*/
+/*div[class|="col"]
+{
+    border: 1px solid #ffc107;
+}*/
+
+
+b
+{
+	font-family: "homizio";
+    font-size: 20px;
+}
+p{
+	font-family: "homizio"!important;
+    font-size: 19px!important;
+    color: black!important;
+}
+/**************** CLASES **************/
+.parallax
+{
+    background-color: #ececec84;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: auto;
+}
+.TituloRojo
+{
+	color: #a70016ff!important;
+}
+.Subtitle
+{
+	font-size: 38px!important;
+
+}
+.blanco
+{
+	background-color: #ffffff6a;
+}
+
+.subtitulo{
+	font-size: 28px!important;
+	color: #fff!important;
+}
+/**************** IDS **************/
+#NuestroMenu
+{
+	background-image: url('assets/images/menu1.jpg');
+}
+
+#papas
+{
+	background-image: url('assets/images/potatoes.jpg');
+}
+#patacones
+{
+	background-image: url('assets/images/pataconess.jpg');
+}
+
+#wraps
+{
+	background-image: url('assets/images/wrapss.jpg');
+}
+#costilla
+{
+	background-image: url('assets/images/costilla.jpg');
+}
+
+#textura
+{
+	background-image: url('assets/images/textura.jpg');
+}
+
