@@ -46,13 +46,7 @@ h2
     font-size: 28px;
  }
 
- p
-{
-    color: white;
-    font-family: "homizio";
-    font-size: 32px;
-    z-index: -1;
-}
+ 
 
 
 /* ************* CLASES************* */
@@ -63,6 +57,7 @@ h2
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
+    height: auto;
 }
 .opacidadNegra
 {
@@ -77,12 +72,21 @@ h2
 {
     padding-top: 24%;
 }
+.texts
+{
+    color: white!important;
+    font-family: "homizio";
+    font-size: 32px!important;
+    z-index: -1;
+}
+
 .TextUbicacion
 {
     width: 72%;
     height: 31%;
     margin-top: -36%;
     margin-left: 13%;
+
 }
 .TextUbic
 {
@@ -123,6 +127,7 @@ h2
 #seccionBienvenida
 {
     background-image: url('assets/images/cuchara2.jpg');
+    height: auto;
 }
 
 #seccionMenu

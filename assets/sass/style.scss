@@ -16,6 +16,7 @@ License: GNU General Public License v2
 @import 'nosotros';
 @import 'media-queries';
 @import 'menu';
+@import 'ubicanos';
 
 @include font-face('Lunatique', 'thelunatique', 'the-lunatique', 'serif');
 @include font-face('Homizio', 'homizio', 'homizio', 'serif');
@@ -58,11 +59,7 @@ nav.navbar li a
     color: black;
 }
 
-p
-{
-    font-family: "homizio";
-    padding-top: 2%;
-}
+
 
 
 h1

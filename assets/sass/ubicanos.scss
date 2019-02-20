@@ -1,0 +1,67 @@
+@import 'media-queries';
+/* una clase para ver las divisiones*/
+/*div[class|="col"]
+{
+    border: 1px solid #ffc107;
+
+}*/
+.google-maps {
+    position: relative;
+    padding:18%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.parallax
+{
+    background-color: #ececec84;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: auto;
+    width: auto;
+}
+#UbicanosPuerto
+{
+	background-image: url('assets/images/ubicanos3.JPG');
+	width: auto;
+	height: auto;
+}
+#UbicanosEsparza
+{
+	background-image: url('assets/images/textura.jpg');
+	width: auto;
+	height: auto;
+}
+#Map
+{
+   background-image: url('assets/images/ubicanos1.jpg');
+    width: auto;
+    height: auto; 
+}
+#background
+{
+	background-color: #a80015b6;
+	padding: 5%;
+}
+
+#Subtitulo
+{
+	color: white;
+	font-family: "homizio";
+	font-size: 28px;
+}
+#Parrafo
+{
+	color: white!important;
+	font-family: "homizio";
+	font-size: 23px;
+}
+
