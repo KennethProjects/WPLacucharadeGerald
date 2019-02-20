@@ -9,7 +9,7 @@ get_header();
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 text-center mb-5" id="location">
 		        <p class="texts">
-		            Bienvenidos a 
+		            Welcome 
 		        </p>
 		        <h1>
 		            La Cuchara De Gerald 
@@ -25,7 +25,7 @@ get_header();
 		<div class="row">
 					<div class="col-lg-6 col-md-6 col-sm-12 text-center  mt-5 pb-5">
 							<h2>
-								Menú
+								Menu
 							</h2>
 							<div id="imgSize">
 							<img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/images/inicio2.1.png"">
@@ -33,10 +33,9 @@ get_header();
 					</div> <!-- final del div de 4 columnas-->
 
 					<div class="col-lg-6 col-md-6 col-sm-12 textos">
-						<p class="texts">
-							La variedad es nuestro fuerte, es por esta razón que contamos
-				 			con un amplio menú para todos los gustos. <br>
-							Dale un vistazo y te sorprederas!!
+						<p class="texts">The variety is our strength.
+							with an extensive menu for all tastes. <br>
+							Take a look and you'll be surprised!
 						</p>
 					</div> <!-- fin del div 6 columnas-->
 			
@@ -49,7 +48,7 @@ get_header();
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-sm-12 text-center  mt-5 pb-5" >
 				<h2>
-					Promociones
+					Promotions
 				</h2>
 				<div id="imgSize">
 					<img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/images/promo.jpg"">
@@ -57,8 +56,7 @@ get_header();
 			</div> <!-- final del div de 6 columnas-->
 
 			<div class="col-lg-6 col-md-6 col-sm-12  textos">
-			<p class="texts"> El platillo del dia a un precio irresistible para todos 
-				nuestros comensales, a la calidad que te acostumbra <br>
+			<p class="texts"> The dish of the day at an irresistible price for all our guests, at the quality that accustoms you <br>
 				Gerald
 			</p>
 			</div>
@@ -75,7 +73,7 @@ get_header();
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-sm-12 text-center boxUbic">
 				<h2>
-					Ubicanos
+					Locate
 				</h2>
 				<div class="imgSiz">
 					<img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/images/ubic2.png""> 
@@ -84,11 +82,10 @@ get_header();
 			<div class="col-lg-6 col-md-6 col-sm-12">
 				<div class="UbicanosDiv"> 
 					<div class="TextUbic">
-						<h5>
-							La 	Cuchara de Gerald cuenta con 2
-							restaurantes ubicados en Esparza y en Puntarenas
-							donde puedes visitarnos para compartir en familia
-							o con amigos...
+						<h5>La Cuchara de Gerald has 2 restaurants located 
+							in Esparza and Puntarenas where you can visit 
+							us to share with your family
+                            or with friends ...
 						</h5>
 					</div><!-- div del h5-->
 				</div>
@@ -103,7 +100,7 @@ get_header();
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-sm-12 text-center boxUbic">
 				<h2>
-					Nosotros
+					About Us
 				</h2>
 				<div class="size" id="imgSize">
 					<img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/images/chef.jpg">
@@ -112,7 +109,7 @@ get_header();
 					<p>
 						GERALD
 						<br>
-						Chef
+						Cheff
 					</p>
 			
 			</div>
@@ -120,7 +117,7 @@ get_header();
 			<div class="col-lg-6 col-md-6 col-sm-12" >
 				<div class="history">
 					<h4>
-						Desde 2015
+						Since 2015
 					</h4>
 					<h5>
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
