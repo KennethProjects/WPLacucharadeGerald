@@ -5,7 +5,7 @@ get_header();
 <section class="parallax" id="UbicanosPuerto">
 	<div  class="container-fluid">
 		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 text-center m-5">
+			<div class="col-lg-12 col-md-12 col-sm-12 text-center">
 				<h1>
 					Dónde nos ubicamos
 				</h1>
